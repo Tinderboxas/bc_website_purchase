@@ -52,6 +52,9 @@
                                 attrs="{'invisible': ['|', ('line_ids','=',[]),('state', 'in', ('draft' ,'open','done'))]}"/>
                                 -->
                 </xpath>
+                <field name="multiple_rfq_per_supplier" position="after">
+                    <field name="template_id"/>
+                </field>
         </field>
         </record>
 
@@ -149,7 +152,7 @@
             </field>
         </record>
         <record id="action_purchase_quotation_template" model="ir.actions.act_window">
-            <field name="name">Quotation Templates</field>
+            <field name="name">Purchase Quotation Templates</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">purchase.quote.template</field>
             <field name="view_type">form</field>

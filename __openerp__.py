@@ -5,7 +5,7 @@
     'website': 'https://www.odoo.com/page/quote-builder',
     'version': '1.0',
     'description': """
-GURBA
+Elmatica Style
 =========================
 
         """,
